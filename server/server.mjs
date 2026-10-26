@@ -1,3 +1,4 @@
+import "dotenv/config";
 import http from "node:http";
 import { createPool } from "mysql2/promise";
 
