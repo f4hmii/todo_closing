@@ -1,0 +1,24 @@
+{
+  "staff": [
+    { "id": "staff-1", "name": "Ahmad Fauzi" },
+    { "id": "staff-2", "name": "Vemas" },
+    { "id": "staff-3", "name": "Fahreza" },
+    { "id": "staff-4", "name": "Nanda" }
+  ],
+  "categories": [
+    { "id": "dapur", "name": "dapur & kebersihan", "icon": "ChefHat" },
+    { "id": "depan", "name": "area depan (front of house)", "icon": "Store" },
+    { "id": "kasir", "name": "kasir & keamanan", "icon": "ReceiptText" }
+  ],
+  "tasks": [
+    { "id": "task-1", "text": "Bersihkan Exhaust & Grill", "categoryId": "dapur", "active": true },
+    { "id": "task-2", "text": "Pel Lantai Area Basah", "categoryId": "dapur", "active": true },
+    { "id": "task-3", "text": "Cek Suhu Freezer (-18°C)", "categoryId": "dapur", "active": true },
+    { "id": "task-4", "text": "Buang Sampah Organik", "categoryId": "dapur", "active": true },
+    { "id": "task-5", "text": "Lap Meja Pelanggan", "categoryId": "depan", "active": true },
+    { "id": "task-6", "text": "Matikan AC & Musik", "categoryId": "depan", "active": true },
+    { "id": "task-7", "text": "Print Laporan Settlement", "categoryId": "kasir", "active": true },
+    { "id": "task-8", "text": "Kunci Pintu Utama", "categoryId": "kasir", "active": true }
+  ],
+  "reports": []
+}

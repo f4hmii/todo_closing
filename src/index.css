@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #0B1F3A; }
+  button, input, select { font: inherit; }
+}
+@layer components {
+  .card { @apply rounded-2xl bg-[#E3ECF5] p-4; }
+  .btn { @apply rounded-xl px-3 py-3 text-xs font-black transition active:scale-[.98] disabled:cursor-not-allowed disabled:opacity-50; }
+  .chip { @apply whitespace-nowrap rounded-full border border-slate-200 bg-white px-3 py-2 text-[11px] font-black text-slate-500; }
+  .chip-active { @apply border-amber-300 bg-amber-100 text-amber-800; }
+}
